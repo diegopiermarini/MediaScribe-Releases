@@ -1,2 +1,30 @@
 # MediaScribe-Releases
 
+Repository pubblico di distribuzione per le release Windows di MediaScribe.
+
+- Releases: https://github.com/diegopiermarini/MediaScribe-Releases/releases
+- Repository applicazione: https://github.com/diegopiermarini/MediaScribe-Releases
+
+## Cosa contiene
+
+- installer `.exe` pubblicati nelle GitHub Releases
+- checksum `SHA256SUMS.txt` per verifica integrita
+- documentazione minima per gli utenti finali
+
+## Flusso di pubblicazione
+
+Le release non vengono buildate in questo repository.
+
+La build avviene nel repository privato `MediaScribe`, dove girano test, obfuscation e packaging Windows. Al push di un tag `v*`, la pipeline del repository privato pubblica automaticamente qui:
+
+- una GitHub Release con l'installer `MediaScribe-Setup-<versione>.exe`
+- il file `SHA256SUMS.txt`
+
+## Download
+
+Per scaricare una versione:
+
+1. apri la sezione Releases di questo repository
+2. scarica l'installer `.exe`
+3. opzionalmente verifica il checksum SHA-256
+
