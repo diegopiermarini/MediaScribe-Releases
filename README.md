@@ -20,6 +20,8 @@ La build avviene nel repository privato `MediaScribe`, dove girano test, obfusca
 - una GitHub Release con l'installer `MediaScribe-Setup-<versione>.exe`
 - il file `SHA256SUMS.txt`
 
+Le versioni pubblicate seguono Semantic Versioning nel formato `vMAJOR.MINOR.PATCH`.
+
 ## Download
 
 Per scaricare una versione:
