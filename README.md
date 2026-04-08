@@ -15,7 +15,7 @@ Repository pubblico di distribuzione per le release Windows di MediaScribe.
 
 Le release non vengono buildate in questo repository.
 
-La build avviene nel repository privato `MediaScribe`, dove girano test, obfuscation e packaging Windows. Al push di un tag `v*`, la pipeline del repository privato pubblica automaticamente qui:
+Le release vengono generate tramite una pipeline automatizzata e pubblicate automaticamente in questo repository.
 
 - una GitHub Release con l'installer `MediaScribe-Setup-<versione>.exe`
 - il file `SHA256SUMS.txt`
