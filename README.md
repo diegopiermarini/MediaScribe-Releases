@@ -16,6 +16,7 @@ It runs on Windows, with no account and no subscription. Your files are never up
 - **Get the text** (`.txt`) in paragraphs, with the time at the start of each paragraph if you want it, and a **Word document** (`.docx`).
 - **Know who is speaking**: in recordings with several voices the text marks "Speaker 1", "Speaker 2"… automatically. At the end you can type their real names ("Mark", "Julia") and the app puts them in every file.
 - **Translate** the result into one or more languages (42 available), also on your PC; even later, from the results screen.
+- **Get a summary**: from the results screen, "Summary" writes a short summary of the recording (in short, main points, decisions, things to do), on your PC.
 - **Help the recognition** of names and special terms by typing them in "Words to recognise".
 - **Never lose your work**: during long transcriptions the PC doesn't go to sleep and the part already done is saved every minute. If the job is interrupted, next time it picks up where it left off.
 
@@ -66,13 +67,13 @@ If you have a suitable NVIDIA card, MediaScribe notices and uses it on its own: 
 | Turbo | 1.6 GB | as accurate as Medium and faster: great for meetings |
 | Large | 3.1 GB | the highest accuracy, NVIDIA card only |
 
-Each model is downloaded only once, the first time you use it. The same goes for the translator (about 500 MB) and for speaker recognition (about 34 MB).
+Each model is downloaded only once, the first time you use it. The same goes for the translator (about 500 MB), speaker recognition (about 34 MB) and summaries (about 3 GB).
 
 ---
 
 ## Privacy
 
-- Your audio, video and texts **stay on your PC**: transcription, translation and speaker recognition all run on your computer.
+- Your audio, video and texts **stay on your PC**: transcription, translation, speaker recognition and summaries all run on your computer.
 - MediaScribe only uses the internet to:
   - download the models the first time (from Hugging Face) and, if you have an NVIDIA card, the library needed to use it (NVIDIA's official package);
   - check whether a new version is available (from this page).
@@ -113,10 +114,14 @@ Automatic updates do this check on their own.
 
 **I closed the app halfway through a long file.** Open it again and transcribe the same file with the same model: it picks up where it left off. The part already done is saved anyway as `<name>_partial`.
 
+**How good are the summaries?** They are made by a small AI model on your PC: good at the main points, but they can get a detail wrong. Check important details in the transcript; the summary file reminds you.
+
 **Where are my files?** Next to the original files, or in the folder you chose under "Save to". From the final screen, **Show in folder** opens it.
 
 ---
 
 ## Built with
 
-MediaScribe is built on open-source components, including: [faster-whisper](https://github.com/SYSTRAN/faster-whisper) and the [Whisper](https://github.com/openai/whisper) models (MIT) for transcription, [M2M100](https://huggingface.co/facebook/m2m100_418M) (MIT) for translation, [sherpa-onnx](https://github.com/k2-fsa/sherpa-onnx) (Apache-2.0) with the pyannote (MIT) and 3D-Speaker (Apache-2.0) models for speaker recognition, [FFmpeg](https://ffmpeg.org) (GPL) to read video files, and [Qt for Python](https://www.qt.io/qt-for-python) (LGPL) for the interface.
+MediaScribe is built on open-source components, including: [faster-whisper](https://github.com/SYSTRAN/faster-whisper) and the [Whisper](https://github.com/openai/whisper) models (MIT) for transcription, [M2M100](https://huggingface.co/facebook/m2m100_418M) (MIT) for translation, [sherpa-onnx](https://github.com/k2-fsa/sherpa-onnx) (Apache-2.0) with the pyannote (MIT) and 3D-Speaker (Apache-2.0) models for speaker recognition, [Llama 3.2](https://www.llama.com/llama3_2/license/) 3B Instruct (Llama 3.2 Community License) for summaries, [FFmpeg](https://ffmpeg.org) (GPL) to read video files, and [Qt for Python](https://www.qt.io/qt-for-python) (LGPL) for the interface.
+
+**Built with Llama.** Llama 3.2 is licensed under the Llama 3.2 Community License, Copyright © Meta Platforms, Inc. All Rights Reserved.
