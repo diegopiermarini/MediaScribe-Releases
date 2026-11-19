@@ -18,6 +18,7 @@ It runs on Windows, with no account and no subscription. Your files are never up
 - **Know who is speaking**: in recordings with several voices the text marks "Speaker 1", "Speaker 2"… automatically. At the end you can type their real names ("Mark", "Julia") and the app puts them in every file.
 - **Translate** the result into one or more languages (42 available), also on your PC; even later, from the results screen.
 - **Get a summary**: from the results screen, "Summary" writes a short summary of the recording (in short, main points, decisions, things to do), on your PC.
+- **Pick up where you left off**: the start screen lists your **Recent** transcriptions. **Open** brings back their results, even after closing the app, to rename people, make the summary or translate again.
 - **Help the recognition** of names and special terms by typing them in "Words to recognise".
 - **Never lose your work**: during long transcriptions the PC doesn't go to sleep and the part already done is saved every minute. If the job is interrupted, next time it picks up where it left off.
 
@@ -57,6 +58,7 @@ If you have a suitable NVIDIA card, MediaScribe notices and uses it on its own: 
 3. If you like, pick languages under **Also translate to**.
 4. Click **Transcribe**. You'll see the progress, the time left and the last sentence understood.
 5. When it's done, your files are in the folder you chose, with the **Open**, **Copy text** and **Show in folder** buttons.
+6. Later, find the job again under **Recent** on the start screen.
 
 **Which model should I pick?** The model is the "brain" that listens to the audio: bigger ones are more accurate but slower. The app shows you the one **recommended for your PC**. In short:
 
@@ -74,7 +76,7 @@ Each model is downloaded only once, the first time you use it. The same goes for
 
 ## Recording
 
-Click **Record** on the start screen, choose your voice (microphone), the PC's audio (calls, videos) or both, and start. The recording is saved as it goes; **Stop and transcribe** turns it into text right away. When you record both, the transcript calls you **You** and tells the other people apart. Please tell people when you record them, and use headphones: with speakers the microphone picks up the others a second time.
+Click **Record** on the start screen, choose your voice (microphone), the PC's audio (calls, videos) or both, and start. The recording is saved as it goes; **Stop and transcribe** turns it into text right away. When you record both, the transcript calls you **You** (or by your name, if you type it on the recording screen) and tells the other people apart. Tick **Make a summary at the end too** to get the summary right after the transcript. Please tell people when you record them, and use headphones: with speakers the microphone picks up the others a second time.
 
 ---
 
