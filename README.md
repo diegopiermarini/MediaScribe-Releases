@@ -74,7 +74,7 @@ Each model is downloaded only once, the first time you use it. The same goes for
 
 ## Recording
 
-Click **Record** on the start screen, choose your voice (microphone), the PC's audio (calls, videos) or both, and start. The recording is saved as it goes; **Stop and transcribe** turns it into text right away. Please tell people when you record them, and use headphones: with speakers the microphone picks up the others a second time.
+Click **Record** on the start screen, choose your voice (microphone), the PC's audio (calls, videos) or both, and start. The recording is saved as it goes; **Stop and transcribe** turns it into text right away. When you record both, the transcript calls you **You** and tells the other people apart. Please tell people when you record them, and use headphones: with speakers the microphone picks up the others a second time.
 
 ---
 
