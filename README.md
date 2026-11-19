@@ -12,6 +12,7 @@ It runs on Windows, with no account and no subscription. Your files are never up
 ## What you can do
 
 - **Transcribe** audio and video files, several at once or a whole folder.
+- **Record** a meeting or a call straight from the app: your voice and what the PC plays (Teams, Zoom, Meet, videos). Press Stop and the transcription starts on its own.
 - **Get subtitles** (`.srt`, plus `.vtt` from the settings), already split into readable, well-timed lines.
 - **Get the text** (`.txt`) in paragraphs, with the time at the start of each paragraph if you want it, and a **Word document** (`.docx`).
 - **Know who is speaking**: in recordings with several voices the text marks "Speaker 1", "Speaker 2"… automatically. At the end you can type their real names ("Mark", "Julia") and the app puts them in every file.
@@ -68,6 +69,12 @@ If you have a suitable NVIDIA card, MediaScribe notices and uses it on its own: 
 | Large | 3.1 GB | the highest accuracy, NVIDIA card only |
 
 Each model is downloaded only once, the first time you use it. The same goes for the translator (about 500 MB), speaker recognition (about 34 MB) and summaries (about 3 GB).
+
+---
+
+## Recording
+
+Click **Record** on the start screen, choose your voice (microphone), the PC's audio (calls, videos) or both, and start. The recording is saved as it goes; **Stop and transcribe** turns it into text right away. Please tell people when you record them, and use headphones: with speakers the microphone picks up the others a second time.
 
 ---
 
