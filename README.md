@@ -70,7 +70,7 @@ If you have a suitable NVIDIA card, MediaScribe notices and uses it on its own: 
 | Turbo | 1.6 GB | as accurate as Medium and faster: great for meetings |
 | Large | 3.1 GB | the highest accuracy, NVIDIA card only |
 
-Each model is downloaded only once, the first time you use it. The same goes for the translator (about 500 MB), speaker recognition (about 34 MB) and summaries (about 3 GB).
+Each model is downloaded only once, the first time you use it. The same goes for the translator (about 500 MB) and summaries (about 3 GB). Speaker recognition is already included in the installer.
 
 ---
 
