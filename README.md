@@ -17,7 +17,7 @@ It runs on Windows, with no account and no subscription. Your files are never up
 - **Get the text** (`.txt`) in paragraphs, with the time at the start of each paragraph if you want it, and a **Word document** (`.docx`).
 - **Know who is speaking**: in recordings with several voices the text marks "Speaker 1", "Speaker 2"… automatically. At the end you can type their real names ("Mark", "Julia") and the app puts them in every file.
 - **Translate** the result into one or more languages (42 available), also on your PC; even later, from the results screen.
-- **Get a summary**: from the results screen, "Summary" writes a short summary of the recording (in short, main points, decisions, things to do), on your PC.
+- **Get a summary**: from the results screen, "Summary" writes a short summary of the recording (in short, main points, decisions, things to do), on your PC. **Copy summary** puts it on the clipboard, ready to paste into an email or a chat.
 - **Pick up where you left off**: the start screen lists your **Recent** transcriptions. **Open** brings back their results, even after closing the app, to rename people, make the summary or translate again.
 - **Help the recognition** of names and special terms by typing them in "Words to recognise".
 - **Never lose your work**: during long transcriptions the PC doesn't go to sleep and the part already done is saved every minute. If the job is interrupted, next time it picks up where it left off.
