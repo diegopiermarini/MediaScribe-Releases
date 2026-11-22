@@ -9,15 +9,27 @@ It runs on Windows, with no account and no subscription. Your files are never up
 
 ---
 
+## What's new in 0.21.0
+
+- **Live text while recording**: what is being said appears on the recording screen a few seconds later. The full transcript, with who speaks, still comes when you press Stop.
+- **"You seem to be in a call: record it?"**: when Teams, Zoom, Webex, WhatsApp or a call in the browser is using the microphone, MediaScribe offers to record it. Once per call, and nothing is recorded until you press Record.
+- **Summaries that fit the recording**: a meeting gets topics, decisions and things to do (with deadlines when they are said); a conversation or interview gets its questions and answers; a lecture or talk gets its key ideas and the details to remember. The right kind is picked for you, and the ▾ next to the summary lets you choose another one.
+- **PDF and Markdown** exports, besides Word, subtitles and text.
+- **Names stay names in translations**: "Giulia" no longer turns into "Julia".
+- **See and free the space** taken by the downloaded models, in the settings.
+- A ready sentence to **tell the others you are recording**, to say or paste in the call's chat.
+
+---
+
 ## What you can do
 
 - **Transcribe** audio and video files, several at once or a whole folder.
-- **Record** a meeting or a call straight from the app: your voice and what the PC plays (Teams, Zoom, Meet, videos). Press Stop and the transcription starts on its own.
+- **Record** a meeting or a call straight from the app: your voice and what the PC plays (Teams, Zoom, Meet, videos), with the **text appearing live**. Press Stop and the full transcription starts on its own. When you are in a call, MediaScribe offers to record it.
 - **Get subtitles** (`.srt`, plus `.vtt` from the settings), already split into readable, well-timed lines.
-- **Get the text** (`.txt`) in paragraphs, with the time at the start of each paragraph if you want it, and a **Word document** (`.docx`).
+- **Get the text** (`.txt`) in paragraphs, with the time at the start of each paragraph if you want it, a **Word document** (`.docx`), a **PDF** or **Markdown**.
 - **Know who is speaking**: in recordings with several voices the text marks "Speaker 1", "Speaker 2"… automatically. At the end you can type their real names ("Mark", "Julia") and the app puts them in every file.
 - **Translate** the result into one or more languages (42 available), also on your PC; even later, from the results screen.
-- **Get a summary**: from the results screen, "Summary" writes a short summary of the recording (in short, main points, decisions, things to do), on your PC. **Copy summary** puts it on the clipboard, ready to paste into an email or a chat.
+- **Get a summary**, on your PC, shaped for the recording: decisions and things to do for a meeting, questions and answers for an interview, key ideas for a lecture. **Copy summary** puts it on the clipboard, ready to paste into an email or a chat; translations include the summary too.
 - **Pick up where you left off**: the start screen lists your **Recent** transcriptions. **Open** brings back their results, even after closing the app, to rename people, make the summary or translate again.
 - **Help the recognition** of names and special terms by typing them in "Words to recognise".
 - **Never lose your work**: during long transcriptions the PC doesn't go to sleep and the part already done is saved every minute. If the job is interrupted, next time it picks up where it left off.
@@ -70,13 +82,17 @@ If you have a suitable NVIDIA card, MediaScribe notices and uses it on its own: 
 | Turbo | 1.6 GB | as accurate as Medium and faster: great for meetings |
 | Large | 3.1 GB | the highest accuracy, NVIDIA card only |
 
-Each model is downloaded only once, the first time you use it. The same goes for the translator (about 500 MB) and summaries (about 3 GB). Speaker recognition is already included in the installer.
+Each model is downloaded only once, the first time you use it. The same goes for the translator (about 500 MB) and summaries (about 3 GB). Speaker recognition is already included in the installer. In **Settings → Space used by models** you can see how much each one takes and delete the ones you don't use.
 
 ---
 
 ## Recording
 
-Click **Record** on the start screen, choose your voice (microphone), the PC's audio (calls, videos) or both, and start. The recording is saved as it goes; **Stop and transcribe** turns it into text right away. When you record both, the transcript calls you **You** (or by your name, if you type it on the recording screen) and tells the other people apart. Tick **Make a summary at the end too** to get the summary right after the transcript. Please tell people when you record them, and use headphones: with speakers the microphone picks up the others a second time.
+Click **Record** on the start screen, choose your voice (microphone), the PC's audio (calls, videos) or both, and start. The recording is saved as it goes; **Stop and transcribe** turns it into text right away. When you record both, the transcript calls you **You** (or by your name, if you type it on the recording screen) and tells the other people apart. Tick **Make a summary at the end too** to get the summary right after the transcript. While you record, the **live text** shows what is being said a few seconds later (on PCs without a suitable NVIDIA card it needs a processor with at least 6 threads).
+
+Please tell people when you record them: the recording screen has a ready sentence you can say or paste in the call's chat (**Copy the notice**). Use headphones: with speakers the microphone picks up the others a second time.
+
+If the app is open while you are in a call (Teams, Zoom, Webex, WhatsApp, or a call in the browser), it offers to record it. It only looks at which program is using the microphone, the same thing Windows shows with its microphone icon; nothing is listened to until you press **Record**.
 
 ---
 
