@@ -9,15 +9,9 @@ It runs on Windows, with no account and no subscription. Your files are never up
 
 ---
 
-## What's new in 0.21.0
+## What's new in 0.22.0
 
-- **Live text while recording**: what is being said appears on the recording screen a few seconds later. The full transcript, with who speaks, still comes when you press Stop.
-- **"You seem to be in a call: record it?"**: when Teams, Zoom, Webex, WhatsApp or a call in the browser is using the microphone, MediaScribe offers to record it. Once per call, and nothing is recorded until you press Record.
-- **Summaries that fit the recording**: a meeting gets topics, decisions and things to do (with deadlines when they are said); a conversation or interview gets its questions and answers; a lecture or talk gets its key ideas and the details to remember. The right kind is picked for you, and the ▾ next to the summary lets you choose another one.
-- **PDF and Markdown** exports, besides Word, subtitles and text.
-- **Names stay names in translations**: "Giulia" no longer turns into "Julia".
-- **See and free the space** taken by the downloaded models, in the settings.
-- A ready sentence to **tell the others you are recording**, to say or paste in the call's chat.
+- **Correct the transcript**: the new **Correct** button on the results screen shows every phrase with its time and who says it. Fix a word, change who is speaking, join two phrases or split one in two, and **listen to a phrase** to check a word you're not sure about. **Find and replace** fixes a misspelt name everywhere at once. When you save, every file is updated: text, subtitles (timing included), Word, PDF and Markdown. It works on transcriptions made with this version or later.
 
 ---
 
@@ -27,6 +21,7 @@ It runs on Windows, with no account and no subscription. Your files are never up
 - **Record** a meeting or a call straight from the app: your voice and what the PC plays (Teams, Zoom, Meet, videos), with the **text appearing live**. Press Stop and the full transcription starts on its own. When you are in a call, MediaScribe offers to record it.
 - **Get subtitles** (`.srt`, plus `.vtt` from the settings), already split into readable, well-timed lines.
 - **Get the text** (`.txt`) in paragraphs, with the time at the start of each paragraph if you want it, a **Word document** (`.docx`), a **PDF** or **Markdown**.
+- **Correct the result**: fix words, change who is speaking, join or split phrases and listen to each one; saving updates every file.
 - **Know who is speaking**: in recordings with several voices the text marks "Speaker 1", "Speaker 2"… automatically. At the end you can type their real names ("Mark", "Julia") and the app puts them in every file.
 - **Translate** the result into one or more languages (42 available), also on your PC; even later, from the results screen.
 - **Get a summary**, on your PC, shaped for the recording: decisions and things to do for a meeting, questions and answers for an interview, key ideas for a lecture. **Copy summary** puts it on the clipboard, ready to paste into an email or a chat; translations include the summary too.
@@ -98,11 +93,38 @@ If the app is open while you are in a call (Teams, Zoom, Webex, WhatsApp, or a c
 
 ## Privacy
 
-- Your audio, video and texts **stay on your PC**: transcription, translation, speaker recognition and summaries all run on your computer.
-- MediaScribe only uses the internet to:
-  - download the models the first time (from Hugging Face) and, if you have an NVIDIA card, the library needed to use it (NVIDIA's official package);
-  - check whether a new version is available (from this page).
-- In the settings you can choose **Google Translate** instead of translating on your PC, if you want: in that case the text to translate is sent to Google. It's off by default.
+*Privacy policy of MediaScribe, the app published on this page and in the Microsoft Store. Last updated: 23 November 2026.*
+
+**In short: MediaScribe collects no personal data.** There is no account, no advertising, no analytics and no tracking. Your recordings, files, transcripts, translations and summaries stay on your PC: they are never sent to us or to anyone else.
+
+**What stays on your PC**
+
+- The audio and video you open or record, and everything MediaScribe makes from them: transcription, speaker recognition, translation and summaries all run on your computer.
+- Your settings, the list of recent jobs and the downloaded models, in the `.mediascribe` folder of your Windows user profile.
+
+**When MediaScribe uses the internet**
+
+- To download the models the first time they are needed, from Hugging Face, and, on PCs with a suitable NVIDIA card, NVIDIA's official library from the Python Package Index (PyPI).
+- In the version downloaded from this page: to check whether a new version is out and, when you click **Update now**, to download it from GitHub. The Microsoft Store version is updated by the Store.
+- Only if you choose **Google Translate** in the settings (it's off by default): the text to translate is sent to Google, under Google's privacy policy.
+
+These requests carry none of your files or texts (except the text sent to Google, if you choose it). Like any download, the services involved see your IP address.
+
+**Microphone and recording**
+
+MediaScribe uses the microphone and the PC's audio only while you record, after you press **Record**. To offer to record a call, it checks which program is using the microphone (the same information Windows shows with its microphone icon); it doesn't listen to anything. Please tell people when you record them.
+
+**Children**
+
+MediaScribe is not aimed at children and collects no data from anyone.
+
+**Removing your data**
+
+Your transcripts are ordinary files: delete them as you like. The uninstaller offers to remove your settings and the downloaded models; **Settings → Space used by models** removes models at any time. Uninstalling the Microsoft Store version doesn't remove the `.mediascribe` folder in your user profile: delete it by hand if you want.
+
+**Contact**
+
+Questions about privacy: mediascribe.app@outlook.com. Any change to this policy will appear in this section, with a new date.
 
 ---
 
