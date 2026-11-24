@@ -8,7 +8,7 @@ Drop in a recording (a meeting, an interview, a lecture, a video) and Homeword g
 
 It runs on Windows, with no account and no subscription. Your files are never uploaded anywhere: all the work happens on your computer.
 
-👉 **[Download the latest version](https://github.com/diegopiermarini/Homeword-Releases/releases/latest)**: on the page that opens, under **Assets**, click `Homeword-Setup-<version>.exe`.
+👉 **[Download the latest version](https://github.com/homewordapp/Homeword-Releases/releases/latest)**: on the page that opens, under **Assets**, click `Homeword-Setup-<version>.exe`.
 
 ---
 
@@ -53,7 +53,7 @@ If you have a suitable NVIDIA card, Homeword notices and uses it on its own: the
 
 ## Installation
 
-1. **[Download](https://github.com/diegopiermarini/Homeword-Releases/releases/latest)** `Homeword-Setup-<version>.exe`.
+1. **[Download](https://github.com/homewordapp/Homeword-Releases/releases/latest)** `Homeword-Setup-<version>.exe`.
 2. Open it and follow the steps. No administrator rights are needed: the app is installed for your user only.
 3. When it's done, you'll find Homeword in the Start menu.
 
