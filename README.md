@@ -1,24 +1,27 @@
-# MediaScribe
+# Homeword
 
-**Turn audio and video into text and subtitles, right on your PC.**
-Drop in a recording (a meeting, an interview, a lecture, a video) and MediaScribe gives you back the text, the subtitles and, if you like, a translation into other languages. It also recognises who is speaking.
+**Your words stay home. Turn audio and video into text and subtitles, right on your PC.**
+
+> **MediaScribe is now Homeword.** Same app, new name. If you have MediaScribe, it updates itself to Homeword and keeps your settings, recent jobs and downloaded models.
+
+Drop in a recording (a meeting, an interview, a lecture, a video) and Homeword gives you back the text, the subtitles and, if you like, a translation into other languages. It also recognises who is speaking.
 
 It runs on Windows, with no account and no subscription. Your files are never uploaded anywhere: all the work happens on your computer.
 
-👉 **[Download the latest version](https://github.com/diegopiermarini/MediaScribe-Releases/releases/latest)**: on the page that opens, under **Assets**, click `MediaScribe-Setup-<version>.exe`.
+👉 **[Download the latest version](https://github.com/diegopiermarini/Homeword-Releases/releases/latest)**: on the page that opens, under **Assets**, click `Homeword-Setup-<version>.exe`.
 
 ---
 
-## What's new in 0.22.0
+## What's new in 0.23.0
 
-- **Correct the transcript**: the new **Correct** button on the results screen shows every phrase with its time and who says it. Fix a word, change who is speaking, join two phrases or split one in two, and **listen to a phrase** to check a word you're not sure about. **Find and replace** fixes a misspelt name everywhere at once. When you save, every file is updated: text, subtitles (timing included), Word, PDF and Markdown. It works on transcriptions made with this version or later.
+- **MediaScribe is now Homeword.** Only the name changes: "Homeword" because your words stay home, on your PC. The update installs over MediaScribe as usual and keeps your settings, recent jobs and downloaded models (they move to the new `.homeword` folder by themselves, nothing is downloaded again); your transcripts stay where they are, and the "MediaScribe" shortcuts become "Homeword" ones. Next to the installer you'll also find `MediaScribe-Setup-0.23.0.exe`: it's the same file, published under the old name so MediaScribe can update itself. You don't need to download it.
 
 ---
 
 ## What you can do
 
 - **Transcribe** audio and video files, several at once or a whole folder.
-- **Record** a meeting or a call straight from the app: your voice and what the PC plays (Teams, Zoom, Meet, videos), with the **text appearing live**. Press Stop and the full transcription starts on its own. When you are in a call, MediaScribe offers to record it.
+- **Record** a meeting or a call straight from the app: your voice and what the PC plays (Teams, Zoom, Meet, videos), with the **text appearing live**. Press Stop and the full transcription starts on its own. When you are in a call, Homeword offers to record it.
 - **Get subtitles** (`.srt`, plus `.vtt` from the settings), already split into readable, well-timed lines.
 - **Get the text** (`.txt`) in paragraphs, with the time at the start of each paragraph if you want it, a **Word document** (`.docx`), a **PDF** or **Markdown**.
 - **Correct the result**: fix words, change who is speaking, join or split phrases and listen to each one; saving updates every file.
@@ -44,15 +47,15 @@ The interface is available in English and Italian, with a light or dark theme.
 | Internet | only the first time, to download the models | |
 | Graphics card | not needed | NVIDIA GTX 10 series or newer with at least 4 GB: transcription becomes many times faster |
 
-If you have a suitable NVIDIA card, MediaScribe notices and uses it on its own: there is nothing to install.
+If you have a suitable NVIDIA card, Homeword notices and uses it on its own: there is nothing to install.
 
 ---
 
 ## Installation
 
-1. **[Download](https://github.com/diegopiermarini/MediaScribe-Releases/releases/latest)** `MediaScribe-Setup-<version>.exe`.
+1. **[Download](https://github.com/diegopiermarini/Homeword-Releases/releases/latest)** `Homeword-Setup-<version>.exe`.
 2. Open it and follow the steps. No administrator rights are needed: the app is installed for your user only.
-3. When it's done, you'll find MediaScribe in the Start menu.
+3. When it's done, you'll find Homeword in the Start menu.
 
 **Windows says "Windows protected your PC"?** That's normal for programs that aren't widely known yet. Click **More info**, then **Run anyway**. If you want to be sure the file is exactly the one published here, see [Check the downloaded file](#check-the-downloaded-file).
 
@@ -93,16 +96,16 @@ If the app is open while you are in a call (Teams, Zoom, Webex, WhatsApp, or a c
 
 ## Privacy
 
-*Privacy policy of MediaScribe, the app published on this page and in the Microsoft Store. Last updated: 23 November 2026.*
+*Privacy policy of Homeword (called MediaScribe until version 0.22), the app published on this page and in the Microsoft Store. Last updated: 24 November 2026.*
 
-**In short: MediaScribe collects no personal data.** There is no account, no advertising, no analytics and no tracking. Your recordings, files, transcripts, translations and summaries stay on your PC: they are never sent to us or to anyone else.
+**In short: Homeword collects no personal data.** There is no account, no advertising, no analytics and no tracking. Your recordings, files, transcripts, translations and summaries stay on your PC: they are never sent to us or to anyone else.
 
 **What stays on your PC**
 
-- The audio and video you open or record, and everything MediaScribe makes from them: transcription, speaker recognition, translation and summaries all run on your computer.
-- Your settings, the list of recent jobs and the downloaded models, in the `.mediascribe` folder of your Windows user profile.
+- The audio and video you open or record, and everything Homeword makes from them: transcription, speaker recognition, translation and summaries all run on your computer.
+- Your settings, the list of recent jobs and the downloaded models, in the `.homeword` folder of your Windows user profile (`.mediascribe` in versions before 0.23).
 
-**When MediaScribe uses the internet**
+**When Homeword uses the internet**
 
 - To download the models the first time they are needed, from Hugging Face, and, on PCs with a suitable NVIDIA card, NVIDIA's official library from the Python Package Index (PyPI).
 - In the version downloaded from this page: to check whether a new version is out and, when you click **Update now**, to download it from GitHub. The Microsoft Store version is updated by the Store.
@@ -112,31 +115,31 @@ These requests carry none of your files or texts (except the text sent to Google
 
 **Microphone and recording**
 
-MediaScribe uses the microphone and the PC's audio only while you record, after you press **Record**. To offer to record a call, it checks which program is using the microphone (the same information Windows shows with its microphone icon); it doesn't listen to anything. Please tell people when you record them.
+Homeword uses the microphone and the PC's audio only while you record, after you press **Record**. To offer to record a call, it checks which program is using the microphone (the same information Windows shows with its microphone icon); it doesn't listen to anything. Please tell people when you record them.
 
 **Children**
 
-MediaScribe is not aimed at children and collects no data from anyone.
+Homeword is not aimed at children and collects no data from anyone.
 
 **Removing your data**
 
-Your transcripts are ordinary files: delete them as you like. The uninstaller offers to remove your settings and the downloaded models; **Settings → Space used by models** removes models at any time. Uninstalling the Microsoft Store version doesn't remove the `.mediascribe` folder in your user profile: delete it by hand if you want.
+Your transcripts are ordinary files: delete them as you like. The uninstaller offers to remove your settings and the downloaded models; **Settings → Space used by models** removes models at any time. Uninstalling the Microsoft Store version doesn't remove the `.homeword` folder in your user profile: delete it by hand if you want.
 
 **Contact**
 
-Questions about privacy: mediascribe.app@outlook.com. Any change to this policy will appear in this section, with a new date.
+Questions about privacy: homeword.app@outlook.com. Any change to this policy will appear in this section, with a new date.
 
 ---
 
 ## Updates
 
-When a new version comes out, MediaScribe tells you with a notice at the top. Click **Update now**: the app downloads the new version, checks that it's intact, updates itself and reopens. Your settings and the models already downloaded are kept.
+When a new version comes out, Homeword tells you with a notice at the top. Click **Update now**: the app downloads the new version, checks that it's intact, updates itself and reopens. Your settings and the models already downloaded are kept.
 
 ---
 
 ## Uninstalling
 
-From **Windows Settings → Apps → MediaScribe → Uninstall**.
+From **Windows Settings → Apps → Homeword → Uninstall**.
 While uninstalling you can choose whether to keep your settings and the downloaded models (handy if you plan to reinstall). Your audio and video files and the texts you created are never deleted.
 
 ---
@@ -146,7 +149,7 @@ While uninstalling you can choose whether to keep your settings and the download
 Next to the installer, every version has a `SHA256SUMS.txt` file with the installer's "fingerprint". To check that the file you downloaded is identical to the one published:
 
 1. Open **PowerShell** in the folder where you downloaded the installer.
-2. Type: `Get-FileHash .\MediaScribe-Setup-<version>.exe`
+2. Type: `Get-FileHash .\Homeword-Setup-<version>.exe`
 3. The value shown must match the one in `SHA256SUMS.txt` (upper or lower case doesn't matter).
 
 Automatic updates do this check on their own.
@@ -169,6 +172,6 @@ Automatic updates do this check on their own.
 
 ## Built with
 
-MediaScribe is built on open-source components, including: [faster-whisper](https://github.com/SYSTRAN/faster-whisper) and the [Whisper](https://github.com/openai/whisper) models (MIT) for transcription, [M2M100](https://huggingface.co/facebook/m2m100_418M) (MIT) for translation, [sherpa-onnx](https://github.com/k2-fsa/sherpa-onnx) (Apache-2.0) with the pyannote (MIT) and 3D-Speaker (Apache-2.0) models for speaker recognition, [Llama 3.2](https://www.llama.com/llama3_2/license/) 3B Instruct (Llama 3.2 Community License) for summaries, [FFmpeg](https://ffmpeg.org) (GPL) to read video files, and [Qt for Python](https://www.qt.io/qt-for-python) (LGPL) for the interface.
+Homeword is built on open-source components, including: [faster-whisper](https://github.com/SYSTRAN/faster-whisper) and the [Whisper](https://github.com/openai/whisper) models (MIT) for transcription, [M2M100](https://huggingface.co/facebook/m2m100_418M) (MIT) for translation, [sherpa-onnx](https://github.com/k2-fsa/sherpa-onnx) (Apache-2.0) with the pyannote (MIT) and 3D-Speaker (Apache-2.0) models for speaker recognition, [Llama 3.2](https://www.llama.com/llama3_2/license/) 3B Instruct (Llama 3.2 Community License) for summaries, [FFmpeg](https://ffmpeg.org) (GPL) to read video files, and [Qt for Python](https://www.qt.io/qt-for-python) (LGPL) for the interface.
 
 **Built with Llama.** Llama 3.2 is licensed under the Llama 3.2 Community License, Copyright © Meta Platforms, Inc. All Rights Reserved.
