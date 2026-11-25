@@ -12,7 +12,14 @@ It runs on Windows, with no account and no subscription. Your files are never up
 
 ---
 
-## What's new in 0.23.0
+## What's new in 0.24.0
+
+- **Search all your transcriptions**: type a few words in the box on the start screen and see every transcription that says them, with the minute and who is speaking.
+- **Ask a question about a recording** ("What was decided about the budget?"): **Ask…** on the results screen. The answer is written on your PC from the transcript only, and points to the minute so you can check it.
+- **Watched folder** (Settings): every audio or video file you put in that folder is transcribed by itself while Homeword is open.
+- **More ways to sum up**: **Key points** and a **Recap email** ready to send, your own instructions for summaries ("write formally"), and an optional, more accurate summary model for PCs with at least 16 GB of memory.
+
+## What was new in 0.23.0
 
 - **MediaScribe is now Homeword.** Only the name changes: "Homeword" because your words stay home, on your PC. The update installs over MediaScribe as usual and keeps your settings, recent jobs and downloaded models (they move to the new `.homeword` folder by themselves, nothing is downloaded again); your transcripts stay where they are, and the "MediaScribe" shortcuts become "Homeword" ones. Next to the installer you'll also find `MediaScribe-Setup-0.23.0.exe`: it's the same file, published under the old name so MediaScribe can update itself. You don't need to download it.
 
@@ -27,7 +34,10 @@ It runs on Windows, with no account and no subscription. Your files are never up
 - **Correct the result**: fix words, change who is speaking, join or split phrases and listen to each one; saving updates every file.
 - **Know who is speaking**: in recordings with several voices the text marks "Speaker 1", "Speaker 2"… automatically. At the end you can type their real names ("Mark", "Julia") and the app puts them in every file.
 - **Translate** the result into one or more languages (42 available), also on your PC; even later, from the results screen.
-- **Get a summary**, on your PC, shaped for the recording: decisions and things to do for a meeting, questions and answers for an interview, key ideas for a lecture. **Copy summary** puts it on the clipboard, ready to paste into an email or a chat; translations include the summary too.
+- **Get a summary**, on your PC, shaped for the recording: decisions and things to do for a meeting, questions and answers for an interview, key ideas for a lecture; or just the **key points**, or a **recap email** ready to send. Add your own instructions if you like. **Copy summary** puts it on the clipboard, ready to paste into an email or a chat; translations include the summary too.
+- **Ask questions** about a recording and get short answers with the minute where it was said, on your PC.
+- **Search** every transcription you made for a word or a name.
+- **Watch a folder**: drop audio or video files in it and they are transcribed by themselves.
 - **Pick up where you left off**: the start screen lists your **Recent** transcriptions. **Open** brings back their results, even after closing the app, to rename people, make the summary or translate again.
 - **Help the recognition** of names and special terms by typing them in "Words to recognise".
 - **Never lose your work**: during long transcriptions the PC doesn't go to sleep and the part already done is saved every minute. If the job is interrupted, next time it picks up where it left off.
@@ -80,7 +90,7 @@ If you have a suitable NVIDIA card, Homeword notices and uses it on its own: the
 | Turbo | 1.6 GB | as accurate as Medium and faster: great for meetings |
 | Large | 3.1 GB | the highest accuracy, NVIDIA card only |
 
-Each model is downloaded only once, the first time you use it. The same goes for the translator (about 500 MB) and summaries (about 3 GB). Speaker recognition is already included in the installer. In **Settings → Space used by models** you can see how much each one takes and delete the ones you don't use.
+Each model is downloaded only once, the first time you use it. The same goes for the translator (about 500 MB) and summaries and answers (about 3 GB; the optional, more accurate summary model is about 8 GB). Speaker recognition is already included in the installer. In **Settings → Space used by models** you can see how much each one takes and delete the ones you don't use.
 
 ---
 
@@ -96,13 +106,13 @@ If the app is open while you are in a call (Teams, Zoom, Webex, WhatsApp, or a c
 
 ## Privacy
 
-*Privacy policy of Homeword (called MediaScribe until version 0.22), the app published on this page and in the Microsoft Store. Last updated: 24 November 2026.*
+*Privacy policy of Homeword (called MediaScribe until version 0.22), the app published on this page and in the Microsoft Store. Last updated: 25 November 2026.*
 
 **In short: Homeword collects no personal data.** There is no account, no advertising, no analytics and no tracking. Your recordings, files, transcripts, translations and summaries stay on your PC: they are never sent to us or to anyone else.
 
 **What stays on your PC**
 
-- The audio and video you open or record, and everything Homeword makes from them: transcription, speaker recognition, translation and summaries all run on your computer.
+- The audio and video you open or record, and everything Homeword makes from them: transcription, speaker recognition, translation, summaries and the answers to your questions all run on your computer. Searching your transcriptions and the watched folder work on your computer too.
 - Your settings, the list of recent jobs and the downloaded models, in the `.homeword` folder of your Windows user profile (`.mediascribe` in versions before 0.23).
 
 **When Homeword uses the internet**
@@ -172,6 +182,6 @@ Automatic updates do this check on their own.
 
 ## Built with
 
-Homeword is built on open-source components, including: [faster-whisper](https://github.com/SYSTRAN/faster-whisper) and the [Whisper](https://github.com/openai/whisper) models (MIT) for transcription, [M2M100](https://huggingface.co/facebook/m2m100_418M) (MIT) for translation, [sherpa-onnx](https://github.com/k2-fsa/sherpa-onnx) (Apache-2.0) with the pyannote (MIT) and 3D-Speaker (Apache-2.0) models for speaker recognition, [Llama 3.2](https://www.llama.com/llama3_2/license/) 3B Instruct (Llama 3.2 Community License) for summaries, [FFmpeg](https://ffmpeg.org) (GPL) to read video files, and [Qt for Python](https://www.qt.io/qt-for-python) (LGPL) for the interface.
+Homeword is built on open-source components, including: [faster-whisper](https://github.com/SYSTRAN/faster-whisper) and the [Whisper](https://github.com/openai/whisper) models (MIT) for transcription, [M2M100](https://huggingface.co/facebook/m2m100_418M) (MIT) for translation, [sherpa-onnx](https://github.com/k2-fsa/sherpa-onnx) (Apache-2.0) with the pyannote (MIT) and 3D-Speaker (Apache-2.0) models for speaker recognition, [Llama 3.2](https://www.llama.com/llama3_2/license/) 3B Instruct (Llama 3.2 Community License) for summaries and answers, and optionally [Llama 3.1](https://www.llama.com/llama3_1/license/) 8B Instruct (Llama 3.1 Community License), [FFmpeg](https://ffmpeg.org) (GPL) to read video files, and [Qt for Python](https://www.qt.io/qt-for-python) (LGPL) for the interface.
 
-**Built with Llama.** Llama 3.2 is licensed under the Llama 3.2 Community License, Copyright © Meta Platforms, Inc. All Rights Reserved.
+**Built with Llama.** Llama 3.2 is licensed under the Llama 3.2 Community License, and Llama 3.1 under the Llama 3.1 Community License, Copyright © Meta Platforms, Inc. All Rights Reserved.
