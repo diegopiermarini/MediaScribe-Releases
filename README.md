@@ -8,7 +8,11 @@ Drop in a recording (a meeting, an interview, a lecture, a video) and Homeword g
 
 It runs on Windows, with no account and no subscription. Your files are never uploaded anywhere: all the work happens on your computer.
 
-👉 **[Download the latest version](https://github.com/homewordapp/Homeword-Releases/releases/latest)**: on the page that opens, under **Assets**, click `Homeword-Setup-<version>.exe`.
+👉 **[Get it from the Microsoft Store](https://apps.microsoft.com/detail/9PH4PXP30PCT)** (recommended: installed and updated by Windows, no warnings)
+
+👉 or **[download the installer](https://github.com/homewordapp/Homeword-Releases/releases/latest)**: on the page that opens, under **Assets**, click `Homeword-Setup-<version>.exe`.
+
+🌐 Website: **[homewordapp.github.io](https://homewordapp.github.io)**
 
 ---
 
@@ -51,17 +55,22 @@ The interface is available in English and Italian, with a light or dark theme.
 
 | | Minimum | Recommended |
 |---|---|---|
-| System | Windows 10 or 11, 64-bit | Windows 11 |
-| Memory (RAM) | 4 GB | 8 GB or more (needed for the most accurate models) |
-| Disk space | about 1 GB | 3-5 GB if you want several models and translation |
-| Internet | only the first time, to download the models | |
-| Graphics card | not needed | NVIDIA GTX 10 series or newer with at least 4 GB: transcription becomes many times faster |
+| System | Windows 10 (version 1809) or 11, 64-bit | Windows 11 |
+| Processor | 4 cores | 6 cores or more |
+| Memory (RAM) | 4 GB: transcription and translation | 8 GB for summaries and questions; 16 GB for the more precise summaries |
+| Disk space | about 3 GB | about 5 GB with summaries; up to 15 GB with every larger model |
+| Graphics card | not needed | NVIDIA GTX 10 series or newer with at least 4 GB: transcription becomes many times faster ([see how much](https://homewordapp.github.io/#speed)) |
+| Internet | only the first time you use each feature, to download its model | |
 
-If you have a suitable NVIDIA card, Homeword notices and uses it on its own: there is nothing to install.
+If you have a suitable NVIDIA card, Homeword notices and uses it on its own: there is nothing to install. On a PC below the minimum Homeword may be very slow or not work; you can still install it, at your own risk.
 
 ---
 
 ## Installation
+
+**From the Microsoft Store (recommended).** Open **[Homeword in the Microsoft Store](https://apps.microsoft.com/detail/9PH4PXP30PCT)** and click **Get**. Windows installs it and keeps it up to date.
+
+**With the installer from this page.**
 
 1. **[Download](https://github.com/homewordapp/Homeword-Releases/releases/latest)** `Homeword-Setup-<version>.exe`.
 2. Open it and follow the steps. No administrator rights are needed: the app is installed for your user only.
