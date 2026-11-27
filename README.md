@@ -16,16 +16,22 @@ It runs on Windows, with no account and no subscription. Your files are never up
 
 ---
 
-## What's new in 0.24.0
+## What's new in 0.25.0
 
-- **Search all your transcriptions**: type a few words in the box on the start screen and see every transcription that says them, with the minute and who is speaking.
-- **Ask a question about a recording** ("What was decided about the budget?"): **Ask…** on the results screen. The answer is written on your PC from the transcript only, and points to the minute so you can check it.
-- **Watched folder** (Settings): every audio or video file you put in that folder is transcribed by itself while Homeword is open.
-- **More ways to sum up**: **Key points** and a **Recap email** ready to send, your own instructions for summaries ("write formally"), and an optional, more accurate summary model for PCs with at least 16 GB of memory.
+- **Ask all your transcriptions at once**: **Ask all…** next to the search box. Ask something like "what did we decide with the supplier?" and the answer says which recording talks about it and at what minute. Use names and topics said in the recordings: it reads the parts that contain them, on your PC.
+- **Videos with subtitles in the picture**: **Video with subtitles…** on a transcribed video makes a copy (MP4) with the subtitles drawn in, in the original language or a translation. Three styles: classic at the bottom, large in the middle for Reels and Shorts, or on a dark band. The original video doesn't change.
+- **Copy to your notes**: choose a notes folder (your Obsidian vault, a OneDrive folder…) and every transcription lands there as a Markdown note, with the summary and who speaks, kept up to date. A note you changed yourself is never overwritten.
+- **Summary language**: write summaries in the language you want, even one different from the recording's (Settings, or **▾** next to the summary).
+- **A more precise translation**, optional (Settings → Translation model): fewer mistakes on work and technical words. About 1.3 GB to download the first time.
+- **Clear requirements**: the installer shows the terms of use and checks the PC, and summaries and questions warn you first on a PC with less than 8 GB of memory.
+- Fixes: **Choose files** opens in the folder you last used; the answers in **Ask…** are readable in every theme; settings made in a newer version of Homeword are no longer lost.
 
-## What was new in 0.23.0
+## What was new in 0.24.0
 
-- **MediaScribe is now Homeword.** Only the name changes: "Homeword" because your words stay home, on your PC. The update installs over MediaScribe as usual and keeps your settings, recent jobs and downloaded models (they move to the new `.homeword` folder by themselves, nothing is downloaded again); your transcripts stay where they are, and the "MediaScribe" shortcuts become "Homeword" ones. Next to the installer you'll also find `MediaScribe-Setup-0.23.0.exe`: it's the same file, published under the old name so MediaScribe can update itself. You don't need to download it.
+- **Search all your transcriptions** for a word or a name, with the minute and who is speaking.
+- **Ask a question about a recording**: the answer points to the minute.
+- **Watched folder**: files you put in it are transcribed by themselves.
+- **More ways to sum up**: key points, a recap email, your own instructions, and a more accurate summary model for PCs with at least 16 GB of memory.
 
 ---
 
@@ -34,12 +40,14 @@ It runs on Windows, with no account and no subscription. Your files are never up
 - **Transcribe** audio and video files, several at once or a whole folder.
 - **Record** a meeting or a call straight from the app: your voice and what the PC plays (Teams, Zoom, Meet, videos), with the **text appearing live**. Press Stop and the full transcription starts on its own. When you are in a call, Homeword offers to record it.
 - **Get subtitles** (`.srt`, plus `.vtt` from the settings), already split into readable, well-timed lines.
+- **Make a video with the subtitles in the picture**, ready for social networks: classic, large in the middle, or on a dark band.
+- **Copy every transcription to your notes** (an Obsidian vault, a OneDrive folder…) as Markdown, kept up to date.
 - **Get the text** (`.txt`) in paragraphs, with the time at the start of each paragraph if you want it, a **Word document** (`.docx`), a **PDF** or **Markdown**.
 - **Correct the result**: fix words, change who is speaking, join or split phrases and listen to each one; saving updates every file.
 - **Know who is speaking**: in recordings with several voices the text marks "Speaker 1", "Speaker 2"… automatically. At the end you can type their real names ("Mark", "Julia") and the app puts them in every file.
-- **Translate** the result into one or more languages (42 available), also on your PC; even later, from the results screen.
-- **Get a summary**, on your PC, shaped for the recording: decisions and things to do for a meeting, questions and answers for an interview, key ideas for a lecture; or just the **key points**, or a **recap email** ready to send. Add your own instructions if you like. **Copy summary** puts it on the clipboard, ready to paste into an email or a chat; translations include the summary too.
-- **Ask questions** about a recording and get short answers with the minute where it was said, on your PC.
+- **Translate** the result into one or more languages (42 available), also on your PC; even later, from the results screen. A more precise translation model is available in Settings.
+- **Get a summary**, on your PC, shaped for the recording: decisions and things to do for a meeting, questions and answers for an interview, key ideas for a lecture; or just the **key points**, or a **recap email** ready to send. Add your own instructions if you like, and choose the language it's written in. **Copy summary** puts it on the clipboard, ready to paste into an email or a chat; translations include the summary too.
+- **Ask questions** about a recording, or about all of them at once, and get short answers with the recording and the minute where it was said, on your PC.
 - **Search** every transcription you made for a word or a name.
 - **Watch a folder**: drop audio or video files in it and they are transcribed by themselves.
 - **Pick up where you left off**: the start screen lists your **Recent** transcriptions. **Open** brings back their results, even after closing the app, to rename people, make the summary or translate again.
